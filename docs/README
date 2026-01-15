@@ -1,0 +1,118 @@
+# North Star for High-Conflict Cases
+
+A CLI-first tool that helps parents translate overwhelming documentation into clear, restrained, child-centered summaries for professionals in high-conflict custody cases.
+
+## The Problem
+
+Parents in high-conflict custody cases often accumulate extensive documentation—incident logs, communication records, behavioral observations. This documentation is critical but frequently:
+
+- Overwhelms professionals (attorneys, GALs, clinicians) with volume
+- Contains emotional language that triggers bias or dismissal
+- Buries the most relevant child-impact evidence in narrative
+
+Professionals need signal, not noise. Parents need their documentation to be heard.
+
+## What This Tool Does
+
+North Star processes a single document and produces three professionally-focused outputs:
+
+| Output | Audience | Focus |
+|--------|----------|-------|
+| **Attorney-Ready Summary** | Legal counsel | Facts only, neutral language, ranked by relevance |
+| **GAL/Clinician Summary** | Evaluators, therapists | Child-impact framing, behavioral patterns |
+| **Internal Clarity View** | Parent (private) | Transparency on prioritization decisions |
+
+### Core Approach
+
+- **Pattern mapping, not discovery** — Maps facts to established forensic frameworks, doesn't invent labels
+- **Restraint over volume** — Surfaces 8-10 strongest examples, not everything
+- **Child-centered prioritization** — Ranks by impact on children, not parental grievance
+- **Emotion separation** — Preserves emotional content separately, excludes from professional outputs
+
+## Prerequisites
+
+- Python 3.8 or higher
+- Kiro CLI installed and authenticated
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ashleycmk/north-star-high-conflict.git
+cd north-star-high-conflict
+
+# Install Python dependencies
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+# Start the application
+python ui/app.py
+```
+
+Then open your browser to `http://localhost:5000`
+
+1. Upload your document (plain text or markdown)
+2. Click "Analyze"
+3. View and download your three summary outputs
+
+## Project Structure
+
+```
+north-star-high-conflict/
+├── .kiro/
+│   ├── steering/          # Product, tech, structure constraints
+│   ├── prompts/           # Kiro workflow prompts
+│   └── agents/            # Agent definitions
+├── reference/
+│   └── child-impact-patterns.md  # Pattern taxonomy
+├── ui/
+│   └── app.py             # Flask application
+├── outputs/               # Generated summaries
+├── docs/
+│   └── DEVLOG.md          # Development log
+└── README.md
+```
+
+## ⚠️ Important Disclaimers
+
+**This tool does NOT provide:**
+- Legal advice or case strategy
+- Diagnostic conclusions
+- Filing guidance or motion recommendations
+- Professional judgment substitution
+
+**This tool is NOT:**
+- A replacement for legal counsel
+- A clinical assessment tool
+- An authoritative voice on custody matters
+
+**All outputs require professional review.** This tool helps organize and translate documentation—it does not evaluate cases or make recommendations.
+
+## How It Works
+
+1. **Fact Extraction** — Separates factual statements from emotional language
+2. **Pattern Mapping** — Maps facts to predefined child-impact pattern categories
+3. **Relevance Analysis** — Weighs patterns across attorney/GAL/clinician perspectives
+4. **Output Generation** — Produces audience-appropriate summaries
+
+See [docs/DEVLOG.md](docs/DEVLOG.md) for detailed development decisions.
+
+## Built With
+
+- [Kiro CLI](https://kiro.dev) — AI-powered development workflows
+- Python / Flask — Local web interface
+
+## Hackathon
+
+Built for the Dynamous & Kiro Hackathon (January 2025).
+
+## License
+
+MIT
+
+---
+
+*North Star helps parents be heard without being dismissed. It does not speak for them—it helps professionals listen.*
