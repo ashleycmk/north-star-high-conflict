@@ -609,13 +609,13 @@ When Kiro saves a file, Claude Code sees the change.
 
 | Task | Priority | Status |
 |------|----------|--------|
-| Create sample anonymized document | HIGH | 🟡 In progress |
-| Test Kiro CLI path end-to-end | HIGH | ⬜ Not started |
-| Test Flask web UI path end-to-end | HIGH | ⬜ Not started |
-| Create 1-2 additional sample documents | MEDIUM | ⬜ Not started |
+| Create sample anonymized document | HIGH | ✅ Complete (case-001.md) |
+| Test Kiro CLI path end-to-end | HIGH | ✅ Complete |
+| Test Flask web UI path end-to-end | HIGH | ✅ Complete |
+| Create 1-2 additional sample documents | MEDIUM | ✅ Complete (case-002, case-003) |
 | Demo video (2-5 min) | HIGH | ⬜ Not started |
-| Final README polish | MEDIUM | ⬜ Not started |
-| Final DEVLOG polish for judges | LOW | 🟡 Updated through Day 12 |
+| Final README polish | MEDIUM | ✅ Complete |
+| Final DEVLOG polish for judges | LOW | ✅ Updated through Day 15 |
 | Submit to hackathon | HIGH | ⬜ Due Jan 30 |
 
 ---
@@ -862,6 +862,11 @@ Re-tested Kiro CLI path with explicit prompt invocation:
 - [x] Test Flask Web UI path ✅
 - [x] Test Kiro CLI path ✅
 - [x] Create README.md ✅
+- [x] Create case-002.md sample document ✅
+- [x] Create case-003.md sample document ✅
+- [x] Add screenshots ✅
+- [x] Add example outputs to repo ✅
+- [x] Commit all files to GitHub ✅
 - [ ] Record demo video (2-5 min)
 - [ ] Submit by Jan 30
 
@@ -876,7 +881,28 @@ Created comprehensive README.md for hackathon judges with:
 - Setup instructions
 - Sample output description
 - Safety constraints
+- Kiro CLI Features Used section
+
+#### Additional Sample Documents Created
+
+| Document | Incidents | Patterns | Purpose |
+|----------|-----------|----------|---------|
+| case-001.md | 12 | Medical, Communication | Original test case |
+| case-002.md | 28 | Boundary, Coaching, Triangulation | Shows different pattern profile |
+| case-003.md | 42 | Financial, Parentification, Distorted | Most complex test case |
+
+#### Screenshots Added
+
+17 screenshots added to `docs/screenshots/` showing:
+- Flask UI homepage
+- File upload flow
+- Analysis processing
+- Results display (all 3 tabs)
+
+#### Example Outputs Committed
+
+Example outputs from case-003.md analysis committed to `outputs/` folder so judges can see results without running.
 
 ---
 
-*Last updated: Tuesday, January 27, 2025, 10:50 AM*
+*Last updated: Monday, January 27, 2025, 12:30 PM*
