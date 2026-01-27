@@ -1,2 +1,15 @@
+# North Star for High-Conflict Cases
+# Python Dependencies
+
+# Web Framework
 Flask==3.0.0
 Werkzeug==3.0.1
+
+# Anthropic Claude API
+anthropic>=0.40.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# File handling
+markdown==3.5.1

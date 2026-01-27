@@ -2,8 +2,8 @@
   "name": "north-star-analyst",
   "description": "Non-authoritative analysis agent for mapping factual child-impact instances in high-conflict custody documentation to predefined, non-diagnostic pattern frameworks for professional review.",
   "model": "auto",
-  "tools": ["read"],
-  "allowedTools": ["read"],
+  "tools": ["read", "write"],
+  "allowedTools": ["read", "write"],
   "resources": [
     "file://.kiro/steering/product.md",
     "file://.kiro/steering/tech.md",
