@@ -129,8 +129,10 @@ north-star-high-conflict/
 
 ### Prerequisites
 - Python 3.8+
-- Anthropic API key (for Flask path)
+- Anthropic API key (for Flask path) — Free at [console.anthropic.com](https://console.anthropic.com) (new accounts get $5 free credits)
 - Kiro CLI installed (for Kiro path)
+
+> **Note for Judges:** The Flask Web UI requires an Anthropic API key. New Anthropic accounts receive $5 in free credits — more than enough to test the application. Alternatively, you can test the Kiro CLI path which uses your existing Kiro/Claude setup.
 
 ### Installation
 
