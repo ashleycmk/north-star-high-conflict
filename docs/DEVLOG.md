@@ -66,6 +66,20 @@ Made decision to migrate from ChatGPT to Claude for execution phase:
 - Need to generate real files, not just discuss them
 - Strategy complete; execution is the bottleneck
 
+**The Real Reason:** ChatGPT fabricated information. With confidence. The kind of confidence that makes you doubt yourself before you doubt it.
+
+I caught it. Fired it.
+
+But here's what people miss: **I still had to babysit the one I kept.**
+
+Direct quotes from me pushing back on Claude throughout this build:
+- "SLOW DOWN. You're sure this is everything?"
+- "That is UNACCEPTABLE. You should NEVER make anything up."
+- "This isn't as long as the first version you gave me..." (Caught Claude cutting 400 lines. FOUR HUNDRED.)
+- "Good lord. Remember YOU are the expert here and you need to be leading this process effectively."
+
+**The lesson:** I fired one AI assistant. And I still have to parent the one I kept.
+
 #### Afternoon Session (2:00 PM – 4:00 PM)
 Committed to GitHub:
 - [x] DEVLOG.md created
@@ -116,7 +130,7 @@ Completed and committed:
 
 **UI DESIGN COMPLETE — MVP LOCKED:**
 - [x] Full UI/UX design with 5 states (Homepage, File Selected, Processing, Results, Error)
-- [x] Major positioning breakthrough: **"vocabulary, not organization"**
+- [x] Major positioning breakthrough: **parents need translation, not organization**
 - [x] 10 research-backed patterns with gut-punch quote descriptions
 - [x] Three audience-specific outputs with educational context
 - [x] "Why I Built This" origin story
@@ -143,6 +157,18 @@ Completed and committed:
 - [x] Created app.py, index.html, style.css, requirements.txt
 - [x] All files committed to GitHub ui/ folder
 - [x] Learned folder structure creation via GitHub web interface
+
+#### The Positioning Breakthrough
+
+The insight came while explaining the problem to Claude:
+
+> "An attorney says 'give me 10 examples.' A parent has years of notes. How do they know what to pull?"
+
+The answer unlocked everything:
+
+**Parents don't need better organization tools — they need TRANSLATION tools. They need the VOCABULARY.**
+
+The headline that captures it: *"You know something is wrong. You just don't know what to call it."*
 
 #### Key Insight
 The positioning breakthrough ("vocabulary, not organization") crystallized the entire product message: parents don't need better organization tools — they need **translation tools** that help them understand what their documentation reveals.
@@ -260,10 +286,24 @@ All architecture complete. Blocked on: Kiro integration.
 - "The delusion is load-bearing at this point"
 
 #### Tyler Call (12:37 PM)
-Developer friend Tyler provided critical guidance:
-1. Use **Claude Code** (not regular Claude) — creates agent optimized for writing code
-2. Use **VS Code** with Claude Code extension
-3. Set Claude Code to **Plan Mode** before writing any code
+
+Developer friend Tyler got on the phone.
+
+**Tyler:** "Are you using Claude Code?"
+**Me:** "I'm not using Claude Code at all."
+**Tyler:** "Do you have VS Code?"
+**Me:** "I do not."
+**Tyler:** "You'll eventually want to."
+
+I laughed out loud. Not a panic laugh. A "well, I guess we're doing this now" laugh.
+
+**Tyler's insight:** "You've been asking Claude to HELP you code. Stop. Use Claude Code to BUILD with an agent that has all your project context."
+
+**Translation:**
+- Claude = asking a smart friend for advice
+- Claude Code = hiring a specialist who read your entire project file first
+
+**Tyler's warning:** "Might be something where you literally just need to change one line and you'll be like, motherfucker."
 
 #### Decision
 Abandon direct Kiro integration struggles. Pivot to Claude Code + VS Code.
@@ -858,6 +898,14 @@ Re-tested Kiro CLI path with explicit prompt invocation:
 
 **Both paths produce same quality outputs. Zero fabrication verified.**
 
+#### The Moment
+
+> "Testing in terminal... it's WORKING!!!!!"
+>
+> "I could fucking cry. This is fucking wild."
+
+Started this hackathon 10 days late, having never written a line of code. Hit wall after wall. Kept going. And now there's a working tool that could actually help parents.
+
 **Remaining Tasks:**
 - [x] Test Flask Web UI path ✅
 - [x] Test Kiro CLI path ✅
@@ -905,4 +953,214 @@ Example outputs from case-003.md analysis committed to `outputs/` folder so judg
 
 ---
 
-*Last updated: Monday, January 27, 2025, 12:30 PM*
+## Day 16 — Wednesday, January 28 (~3 hours)
+
+### Focus: Demo Video & Final Polish
+
+**Started:** 12:00 PM
+
+#### Video Script Development
+
+Collaborated with family (my dad!) to develop a compelling video script that leads with emotion and the "why" — not just a feature walkthrough.
+
+**Key insight:** Judges likely have no experience with high-conflict custody situations. The video needs to EDUCATE them on the stakes before showing the product.
+
+**Initial script structure:**
+1. **Opening (~45 sec)** — Emotional hook explaining the parent's situation
+2. **What It Does (~20 sec)** — Quick explanation of pattern mapping
+3. **Flask UI Demo (~90 sec)** — Upload document, show 3 output tabs
+4. **Kiro CLI (~20 sec)** — Brief mention of developer path
+5. **Closing (~30 sec)** — "Parents find their voice in a system that can silence them"
+
+**Target:** Under 5 minutes
+
+#### README Updates
+
+- Added fallback instructions for Kiro CLI (when `@analyze` triggers spec creation instead of analysis)
+- Added sample document table showing all 3 test cases with incident counts and pattern profiles
+- Clarified judge instructions for both paths
+
+#### Files Updated
+
+- [x] `docs/VIDEO-SCRIPT.md` — Initial video script with demo paths
+- [x] `README.md` — Kiro CLI fallback instructions, sample document table
+
+---
+
+## Day 17 — Thursday, January 29 (~2 hours)
+
+### Focus: Video Recording Attempts
+
+Spent time trying to record the demo video. Multiple takes. The script was good but delivery needed work.
+
+**The struggle:** Recording yourself talking to a camera while also doing a screen demo is harder than it sounds.
+
+---
+
+## Day 18 — Friday, January 30 (~5 hours) — SUBMISSION DAY
+
+### Focus: Final Video Push & Submission
+
+**Started:** Morning
+
+#### Expert Feedback — The Game Changer
+
+Sent the video draft to a friend with extensive hackathon experience. She came back with GOLD:
+
+**Key feedback:**
+- Lead with statistics — "Children exposed to high-conflict divorce are 2x more likely to attempt suicide"
+- Pre-run the analysis — don't make judges wait on camera
+- "One source of truth. Three perspectives." — this became the core framing
+- Emphasize that NO OTHER TOOL does this
+- Lean into the child impact — this is about protecting CHILDREN
+- Parents are the advocates, not attorneys
+
+#### The Final Script — Complete Rewrite
+
+Rewrote the entire script based on feedback:
+
+**New structure:**
+1. **Opening (~20 sec)** — Suicide statistics, "mental health crisis hiding in family court"
+2. **The Gap (~35 sec)** — "Harm shows up as patterns, not events"
+3. **What It Does (~15 sec)** — "North Star is a translator"
+4. **Kiro CLI (~15 sec)** — Quick demo, "Kiro is the engine"
+5. **Flask UI (~100 sec)** — Pre-loaded results, all 3 tabs, emotional payoff
+6. **Closing (~35 sec)** — "North Star doesn't choose sides. It points to what matters most."
+
+**Key lines that landed:**
+- "Children exposed to high-conflict divorce are more than twice as likely to attempt suicide in their lives."
+- "This is a mental health crisis hiding in family court."
+- "Harm rarely shows up as one dramatic event. It shows up as patterns."
+- "The child's experience — the most important signal — gets lost in the noise."
+- "One source of truth. Three perspectives."
+- "Validates what they've been living."
+- "North Star doesn't choose sides. It points to what matters most."
+
+#### Video Recording — 3 Hours of Refinement
+
+Spent 3 hours refining and re-shooting the video. Over and over. Worth it for the presentation points.
+
+**Final runtime:** ~3:50
+
+#### Screenshots Organized
+
+Organized 32 screenshots into:
+- **13 key screenshots** for judges (renamed with clear names)
+- **19 archived** for records
+
+**Coverage:**
+- Flask UI: Landing page → File ready → All 3 result tabs
+- Kiro IDE: Project structure → Analysis running
+- Kiro CLI: Startup → Constraints → Extraction → Mapping → Output → Complete
+
+#### Final Commits
+
+- [x] `docs/VIDEO-SCRIPT.md` — Final script with practice notes
+- [x] `docs/DEVLOG.md` — Complete journey documentation
+- [x] `docs/screenshots/` — 13 key screenshots, 19 archived
+- [x] All outputs, sample docs, README verified
+
+---
+
+## Submission Complete
+
+**Final Time Investment:**
+
+| Day | Date | Hours | Focus |
+|-----|------|-------|-------|
+| 1 | Jan 12 (Sun) | ~4 | Research & foundation |
+| 2 | Jan 13 (Mon) | ~6 | Architecture & specification |
+| 3 | Jan 14 (Tue) | ~7 | Migration & steering docs |
+| 4 | Jan 15 (Wed) | ~10 | Pattern taxonomy & first prompt |
+| 5 | Jan 16 (Thu) | ~8 | UI, prompts, Flask conversion |
+| 6 | Jan 17 (Fri) | ~1 | Strategic rest |
+| 7 | Jan 18 (Sat) | ~1 | Personal day + LinkedIn |
+| 8 | Jan 19 (Sun) | ~1 | Light day + LinkedIn |
+| 9 | Jan 20 (Mon) | ~6 | Resume build, blocker discovery |
+| 10 | Jan 21 (Tue) | ~5 | analyze.md, troubleshooting |
+| 11 | Jan 22 (Wed) | ~3 | LinkedIn Day 5, Tyler call |
+| 12 | Jan 23 (Thu) | ~6 | Claude Code pivot, dual-path build |
+| 13 | Jan 25 (Sat) | ~1 | Recovery & planning |
+| 14 | Jan 26 (Mon) | ~1 | Declan call, simplification |
+| 15 | Jan 27 (Tue) | ~4 | Full system verification |
+| 16 | Jan 28 (Wed) | ~3 | Video script with family |
+| 17 | Jan 29 (Thu) | ~2 | Video recording attempts |
+| 18 | Jan 30 (Fri) | ~5 | Final video, screenshots, submission |
+| **Total** | | **~74** | |
+
+---
+
+## Why This Tool Exists
+
+Children exposed to high-conflict divorce are more than twice as likely to attempt suicide — and 48% more likely to have suicidal thoughts that follow them into adulthood.
+
+Children exposed to ongoing high conflict show depression, anxiety, PTSD, and conduct problems that worsen — not improve — after the divorce is finalized.
+
+It is a mental health crisis hiding in family court, and something must be done to help advocate for these children.
+
+Parents in these situations are told to document. They do. They have years of notes, texts, emails. But when their attorney asks for "10 examples of harmful behavior affecting the child" — they're paralyzed.
+
+**What do you pull from hundreds of entries?**
+**What will the attorney take seriously?**
+**What will the GAL take seriously?**
+**What will the court act on?**
+
+No one tells them. No tool helps them. They sit in silence, wondering if what they're seeing is even real.
+
+**North Star was built to end that silence.**
+
+It doesn't diagnose. It doesn't give legal advice. It doesn't choose sides.
+
+It translates. It maps lived experience to patterns that professionals recognize. It gives parents the vocabulary to advocate for their children.
+
+*"You know something is wrong. You just don't know what to call it."*
+
+This tool exists because children deserve protection — and the parents who see what's happening deserve to be heard.
+
+---
+
+## The Helpers
+
+This project wouldn't exist without the people who jumped in when it mattered.
+
+| Person | Role | Key Contribution |
+|--------|------|------------------|
+| **Tyler Nelson** | Developer friend | "Use Claude Code. Use VS Code." The phone call that changed everything. |
+| **Declan** | Developer friend | "You've got the meat done. We just need the potatoes." Saw the clear path when I couldn't. |
+| **Alexandra Dmytriw** | Girlfriend | Video feedback: lead with statistics, pre-run the demo, story wins. Turned out she had extensive hackathon experience — I had no idea. |
+| **Justin** | Developer (AI accelerator) | Kiro integration troubleshooting, confirmed chat interface is standard approach. |
+| **Dad** | Family | Day 16 video script collaboration. "Lead with the why." |
+
+---
+
+## The Emotional Arc
+
+```
+Day 1:  Excited. Optimistic. Maybe unreasonably so.
+        ↓
+Day 3:  Fired ChatGPT. Caught it fabricating.
+        ↓
+Day 5:  BREAKTHROUGH. The positioning insight clicked.
+        ↓
+Day 6:  Strategic rest. "The delusion is load-bearing at this point."
+        ↓
+Days 9-11: THE WALL. Kiro won't run headless. Questioning everything.
+        ↓
+Day 11: Tyler call. "Use Claude Code." Laughed out loud.
+        ↓
+Day 12: Pivot and trust. "FUCKING BRILLIANT."
+        ↓
+Day 14: Declan call. Clarity. "You can do this in three days."
+        ↓
+Day 15: VERIFICATION. Both paths working. "This is fucking wild."
+        ↓
+Day 18: Submission. Ohmyfuckinggod we did it.
+```
+
+---
+
+**Submitted:** Friday, January 30, 2026
+
+*"The optimistic delusion was load-bearing. And it held."*
+
+🚀

@@ -1,8 +1,8 @@
 # GAL / Clinician Summary
 ## North Star Analysis Output
 
-**Document Analyzed:** case-003.md  
-**Analysis Date:** January 2025  
+**Document Analyzed:** case-003.md
+**Analysis Date:** January 30, 2025
 **Patterns Identified:** 5 total (Top 3 below)
 
 ---
@@ -19,64 +19,55 @@ This summary provides orientation for professional evaluation. It does not const
 ---
 
 ## Pattern 1: Parentification & Role Reversal
-**Priority:** High  
+**Priority:** High
 **Incidents:** 11
 
 ### Behavioral Context
-Two 10-year-old children have assumed extensive emotional and practical caregiving responsibilities for their father, including emotional regulation support, household management, and adult companionship roles.
+Children ages 10 are assuming adult emotional and practical responsibilities including emotional caregiving for parent, household management, and financial assistance beyond age-appropriate level.
 
 ### Documented Child Impact
-- Therapist (Dr. Chen) identified parentification concerns: Lily feels responsible for "making Dad happy" and experiences chronic worry
-- Child statement: "I don't want to go to Dad's because he's sad all the time and I have to take care of him and I'm tired"
-- Child emotional burden: "I try really hard to make Dad happy but nothing works. I think something is wrong with me"
-- Loss of childhood activities replaced by adult responsibilities (cooking, cleaning, bill management, emotional support)
+C2 (Lily) reports feeling responsible for P2 (Marcus)'s emotional wellbeing and worrying about him constantly when not present. Professional documentation from Dr. Chen specifically flagged parentification concerns. Children demonstrate anxiety about parent's functioning and have assumed caretaking roles including meal preparation, household cleaning, and emotional support.
 
 ### Relevant Observations
-- Children provide emotional comfort during father's distress (making tea, back rubs during crying episodes)
-- Children assume household management (cleaning, laundry, meal preparation) while father remains passive
-- Children left unsupervised for extended periods to accommodate father's social activities
+- C2 (Lily) sets alarm for 5:30 AM to wake P2 (Marcus) for work, stating if she doesn't, "he gets in trouble at his job"
+- Both children lost weight during two-week visit, reporting they "ate a lot of cereal" because P2 (Marcus) "forgot to go to the store"
+- C1 (Aiden) reports staying up late discussing "grown-up stuff" including "money problems and lawyer stuff"
 
 ---
 
 ## Pattern 2: Medical/Therapeutic Interference
-**Priority:** High  
+**Priority:** High
 **Incidents:** 5
 
 ### Behavioral Context
-Pattern of treatment non-compliance and therapeutic disruption affecting children's medical and mental health care continuity.
+Pattern of non-compliance with prescribed medical treatments and therapeutic interventions during one parent's parenting time, including medication withholding and appointment interference.
 
 ### Documented Child Impact
-- Asthma episode requiring urgent care due to medication unavailability
-- ADHD medication inconsistency creating behavioral instability documented by school
-- Therapeutic progress disrupted by missed appointments and mid-session removal
-- Children's health insurance lapsed, creating treatment access barriers
+C1 (Aiden) experiences significant behavioral differences between weeks when ADHD medication is administered versus withheld, as documented by school reports. C2 (Lily)'s asthma condition deteriorated requiring stronger medication after missed doses. Therapeutic progress disrupted by missed appointments and mid-session removal.
 
 ### Relevant Observations
-- Three missed therapy appointments in 2024 during father's parenting time
-- Medication non-compliance attributed to parental philosophy rather than child's medical needs
-- Therapeutic relationship undermined by characterization of treatment as inappropriate "stranger" involvement
+- Third missed therapy appointment in 2024 due to P2 (Marcus) not transporting children
+- C2 (Lily) required urgent care treatment when inhaler unavailable at P2 (Marcus)'s residence
+- Prescribed medications returned nearly unused after parenting time
 
 ---
 
-## Pattern 3: Financial Impact on Child
-**Priority:** High  
-**Incidents:** 10
+## Pattern 3: Distorted Narratives & Reality Distortion
+**Priority:** High
+**Incidents:** 8
 
 ### Behavioral Context
-Children exposed to adult financial disputes and made aware of economic conflicts between parents, creating inappropriate financial anxiety and guilt.
+Children exposed to false information about family history, divorce circumstances, and custody arrangements that contradicts documented facts and court records.
 
 ### Documented Child Impact
-- Child reported embarrassment about inadequate gift due to stated financial constraints
-- Children question mother's financial honesty based on father's statements about "hidden money"
-- Health needs unmet due to financial non-compliance (insurance lapse, unpaid medical bills)
-- Children witness disparity in financial provision between households
+Children demonstrate confusion about family history and express distress when questioning accuracy of information received. C2 (Lily) was observed crying when asking if she "ruined" P2 (Marcus)'s life. Children ask questions suggesting they've been given false information about custody arrangements and financial matters.
 
 ### Relevant Observations
-- Children receive explanations for limitations that reference child support payments
-- Educational and extracurricular needs unmet due to cost-sharing disputes
-- Children's understanding of family finances inappropriate for developmental stage
+- C1 (Aiden) shown video recording of parental argument from 2022 without consent
+- Children told false information about custody requests and property ownership
+- Children exposed to false narratives about divorce causation and financial arrangements
 
 ---
 
 ## Child-Centered Summary
-Both children demonstrate signs of emotional burden, role confusion, and developmental disruption. The 10-year-old twins are assuming adult responsibilities while experiencing loyalty conflicts and treatment disruptions that affect their stability and well-being.
+Both children demonstrate signs of emotional burden and role confusion, with documented professional concerns about parentification and therapeutic interference affecting their development and wellbeing.

@@ -1,8 +1,8 @@
 # Attorney Summary
 ## North Star Analysis Output
 
-**Document Analyzed:** case-003.md  
-**Analysis Date:** January 2025  
+**Document Analyzed:** case-003.md
+**Analysis Date:** January 30, 2025
 **Patterns Identified:** 5 total (Top 3 below)
 
 ---
@@ -19,49 +19,41 @@ This summary provides factual orientation only. It does not constitute legal adv
 ---
 
 ## Pattern 1: Parentification & Role Reversal
-**Priority:** High  
+**Priority:** High
 **Incidents:** 11
 
 ### Key Facts
-- January 18, 2025: Lily (10) reports "takes care of Dad when he's sad," makes tea, rubs back when he cries
-- December 28, 2024: Aiden (10) "made Christmas dinner" (frozen pizza, canned vegetables) because "Dad didn't feel like cooking"
-- November 10, 2024: Lily "helps Dad pay bills online" because "he gets confused by the computer"
-- September 22, 2024: Children left alone 4 hours while Marcus attended party (both children age 10)
-- June 14, 2024: Children "cleaned the whole house" including laundry, dishes, vacuuming while Marcus "watched TV"
-- February 18, 2024: Lily sets alarm for 5:30 AM to wake Marcus for work because "his alarm doesn't work"
+- January 18, 2025: C2 (Lily) stated she "takes care of Dad when he's sad," including making tea, providing comfort, and rubbing his back when he cries
+- December 28, 2024: C1 (Aiden) reported making Christmas dinner (frozen pizza and canned vegetables) because "Dad didn't feel like cooking"
+- November 10, 2024: C2 (Lily) described helping P2 (Marcus) "pay bills online" by typing numbers from his checkbook while he directs her
 
 ### Observable Child Impact
-- August 3, 2024: Therapist (Dr. Chen) flagged parentification concern - Lily feels responsible for "making Dad happy," worries about him constantly
-- July 5, 2024: Lily crying: "I don't want to go to Dad's because he's sad all the time and I have to take care of him and I'm tired"
+August 3, 2024: Therapist Dr. Chen flagged parentification concerns after C2 (Lily) reported feeling responsible for "making Dad happy" and worrying about him "all the time" when at P1's house.
 
 ---
 
-## Pattern 2: Financial Impact on Child
-**Priority:** High  
-**Incidents:** 10
-
-### Key Facts
-- January 10, 2025: Children's health insurance lapsed due to non-payment; $340 out-of-pocket for Lily's asthma inhaler
-- December 5, 2024: Child reported "Dad says he can't afford presents because of what he pays you" (court-ordered support $1,200/month)
-- October 18, 2024: Marcus refused to split $425 glasses cost saying "You make more than me now"
-- July 15, 2024: Marcus failed to pay agreed $600 camp fee by deadline, threatening children's enrollment
-- March 3, 2024: Dental bill sent to collections after Marcus claimed he "never got the bill"
-
-### Observable Child Impact
-- December 20, 2023: Child reported feeling "embarrassed" because his $5 gift was "the smallest one" (class limit was $15)
-- May 8, 2023: Child asked "Is there money hidden in our house?" after being told mother "hides money"
-
----
-
-## Pattern 3: Medical/Therapeutic Interference
-**Priority:** High  
+## Pattern 2: Medical/Therapeutic Interference
+**Priority:** High
 **Incidents:** 5
 
 ### Key Facts
-- December 12, 2024: Children missed joint therapy session - Marcus "forgot" (third missed appointment in 2024)
-- August 20, 2024: Lily's asthma flared at Marcus's house; no inhaler available despite requests; urgent care visit required
-- May 5, 2024: Marcus refuses to administer prescribed ADHD medication during parenting time; school reports behavioral differences between weeks
-- March 18, 2024: Marcus removed children mid-therapy session; told therapist children "don't need to talk to strangers about family business"
+- May 5, 2024: P2 (Marcus) refuses to administer prescribed ADHD medication to C1 (Aiden) during parenting time, stating "He doesn't need drugs, he just needs discipline"
+- March 18, 2024: P2 (Marcus) removed children from therapy session mid-appointment, telling Dr. Chen children "don't need to talk to strangers about family business"
+- August 20, 2024: C2 (Lily) taken to urgent care for asthma flare when P2 (Marcus) did not have inhaler at his residence despite multiple requests
 
 ### Observable Child Impact
-School documentation shows significant behavioral differences in weeks when medication not administered
+School reports significant behavioral differences in C1 (Aiden) between weeks when medication is administered versus withheld. C2 (Lily)'s asthma condition worsened requiring stronger medication after missed doses.
+
+---
+
+## Pattern 3: Financial Impact on Child
+**Priority:** High
+**Incidents:** 10
+
+### Key Facts
+- January 10, 2025: Children's health insurance lapsed when P2 (Marcus) stopped paying premiums; P1 (Jennifer) paid $340 out-of-pocket for C2 (Lily)'s asthma inhaler
+- December 5, 2024: C1 (Aiden) reported P2 (Marcus) stating "he can't afford presents because of what he pays you" regarding court-ordered $1,200/month support
+- December 20, 2023: C1 (Aiden) reported feeling "embarrassed" when his $5 class gift exchange contribution was "the smallest one" (limit was $15)
+
+### Observable Child Impact
+C1 (Aiden) demonstrates financial anxiety and embarrassment. Documentation shows children exposed to support payment discussions and financial disputes between parents.

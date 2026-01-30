@@ -1,9 +1,9 @@
 # Internal Clarity Document
 ## North Star Analysis — Complete View
 
-**Document Analyzed:** case-003.md  
-**Analysis Date:** January 2025  
-**Total Facts Extracted:** 47  
+**Document Analyzed:** case-003.md
+**Analysis Date:** January 30, 2025
+**Total Facts Extracted:** 42
 **Patterns Identified:** 5
 
 ---
@@ -24,118 +24,121 @@ This analysis provides orientation, not authority. Pattern identification does n
 ## All Confirmed Patterns
 
 ### Pattern 1: Parentification & Role Reversal
-**Tier:** Behavioral  
-**Priority:** High  
-**Evidence Quality:** 23/25  
+**Tier:** Behavioral
+**Priority:** High
+**Evidence Quality:** 24/25
 **Incidents:** 11
 
 #### Why This Pattern Was Prioritized
-This pattern received the highest evidence quality score due to extensive documentation, professional corroboration (therapist flagged concern), clear child impact statements, and pattern escalation over time. The volume and consistency of incidents, combined with direct child statements about emotional burden, made this the strongest documented pattern.
+This pattern received the highest evidence quality score due to professional corroboration from Dr. Chen, clear documentation of age-inappropriate responsibilities, and observable child distress. The volume and severity of incidents, combined with therapeutic documentation, makes this a priority concern.
 
 #### All Supporting Incidents
-1. January 18, 2025: Lily "takes care of Dad when he's sad," makes tea, rubs back when he cries
-2. December 28, 2024: Aiden "made Christmas dinner" because "Dad didn't feel like cooking"
-3. November 10, 2024: Lily "helps Dad pay bills online" because "he gets confused by the computer"
-4. September 22, 2024: Children left alone 4 hours while Marcus attended party
-5. August 3, 2024: Therapist flagged parentification concern - Lily feels responsible for "making Dad happy"
-6. June 14, 2024: Children "cleaned the whole house" while Marcus "watched TV"
-7. April 5, 2024: Aiden told "I'm the man of the house now and I need to help him"
-8. February 18, 2024: Lily sets alarm for 5:30 AM to wake Marcus for work
-9. November 5, 2023: Aiden stayed up late while father discussed "money problems and lawyer stuff"
-10. July 22, 2023: Children lost weight during visit, "ate a lot of cereal" because father "forgot to go to the store"
-11. April 30, 2023: Lily told "Dad says I'm his best friend," feels "bad" when having fun at mother's house
+1. January 18, 2025: C2 (Lily) "takes care of Dad when he's sad" - makes tea, provides comfort, rubs his back when he cries
+2. December 28, 2024: C1 (Aiden) made Christmas dinner (frozen pizza, canned vegetables) because P2 (Marcus) "didn't feel like cooking"
+3. November 10, 2024: C2 (Lily) "helps Dad pay bills online" by typing numbers from checkbook while he directs
+4. September 22, 2024: C1 (Aiden) stayed home to "watch" C2 (Lily) while P2 (Marcus) attended party - children alone 4 hours
+5. August 3, 2024: Dr. Chen flagged parentification concerns after C2 (Lily) reported feeling responsible for "making Dad happy"
+6. June 14, 2024: Children "cleaned the whole house" including laundry, dishes, vacuuming while P2 (Marcus) "watched TV"
+7. April 5, 2024: P2 (Marcus) told C1 (Aiden) "I'm the man of the house now and I need to help him"
+8. February 18, 2024: C2 (Lily) sets alarm for 5:30 AM to wake P2 (Marcus) for work because "his alarm doesn't work"
+9. November 5, 2023: C1 (Aiden) stayed up late discussing "grown-up stuff" including "money problems and lawyer stuff"
+10. July 22, 2023: Children lost weight during two-week visit, ate "a lot of cereal" because P2 (Marcus) "forgot to go to the store"
+11. April 30, 2023: P2 (Marcus) told C2 (Lily) she's his "best friend"; she feels "bad" having fun at P1's house because "Dad is alone"
 
 #### Documented Child Impact
-Children show clear signs of emotional burden, role confusion, and developmental disruption. Professional therapeutic concerns documented. Loss of childhood activities and age-appropriate experiences.
+Professional therapeutic documentation confirms parentification concerns. Children demonstrate anxiety about parent's functioning, assume inappropriate responsibilities, and show signs of emotional burden beyond developmental capacity.
 
 ---
 
-### Pattern 2: Financial Impact on Child
-**Tier:** Logistical  
-**Priority:** High  
-**Evidence Quality:** 22/25  
+### Pattern 2: Medical/Therapeutic Interference
+**Tier:** Critical
+**Priority:** High
+**Evidence Quality:** 23/25
+**Incidents:** 5
+
+#### Why This Pattern Was Prioritized
+Critical tier pattern with clear health impact on children. Professional corroboration from medical providers and therapist. School documentation of behavioral differences when medication withheld. Direct impact on children's physical and mental health.
+
+#### All Supporting Incidents
+1. December 12, 2024: Third missed therapy appointment - P2 (Marcus) did not transport children, said he "forgot"
+2. August 20, 2024: C2 (Lily) taken to urgent care for asthma flare - P2 (Marcus) did not have inhaler, said he "didn't think she needed it"
+3. May 5, 2024: P2 (Marcus) refuses ADHD medication for C1 (Aiden), saying "He doesn't need drugs, he just needs discipline"
+4. March 18, 2024: P2 (Marcus) removed children from therapy mid-session, told Dr. Chen they "don't need to talk to strangers about family business"
+5. September 15, 2023: Antibiotics for C2 (Lily)'s ear infection returned nearly full; infection worsened, required stronger medication
+
+#### Documented Child Impact
+School reports significant behavioral differences in C1 (Aiden) between weeks. C2 (Lily)'s medical conditions worsened due to non-compliance. Therapeutic progress disrupted by missed appointments and interference.
+
+---
+
+### Pattern 3: Financial Impact on Child
+**Tier:** Logistical
+**Priority:** High
+**Evidence Quality:** 22/25
 **Incidents:** 10
 
 #### Why This Pattern Was Prioritized
-Strong documentation with concrete financial amounts, court order violations, and clear child impact statements. Pattern shows systematic exposure of children to adult financial conflicts with observable consequences.
+High volume of incidents with clear child impact. Children demonstrate financial anxiety and embarrassment. Pattern of exposing children to adult financial disputes and support payment discussions.
 
 #### All Supporting Incidents
-1. January 10, 2025: Health insurance lapsed, $340 out-of-pocket for inhaler
-2. December 5, 2024: Child told "Dad says he can't afford presents because of what he pays you"
-3. October 18, 2024: Refused to split $425 glasses cost, "You make more than me now"
-4. September 2, 2024: Did not respond to school supplies request, complained children "only brought supplies from your house"
-5. July 15, 2024: Failed to pay $600 camp fee by deadline
-6. May 28, 2024: Refused $95 dance costume, "didn't agree to dance"
-7. March 3, 2024: Dental bill sent to collections after claiming "never got the bill"
-8. December 20, 2023: Gave $5 gifts when limit was $15, child felt "embarrassed"
-9. August 8, 2023: Canceled phone plan without notice
-10. April 15, 2023: Claimed both children on taxes despite alternating agreement
+1. January 10, 2025: Health insurance lapsed - P2 (Marcus) stopped paying premiums, P1 (Jennifer) paid $340 for C2 (Lily)'s inhaler
+2. December 5, 2024: P2 (Marcus) told C1 (Aiden) he "can't afford presents because of what he pays you" (court-ordered support $1,200/month)
+3. October 18, 2024: P2 (Marcus) refused to split $425 glasses cost for C1 (Aiden), saying "You make more than me now"
+4. September 2, 2024: P2 (Marcus) didn't respond to split $180 school supplies cost, later complained children "only brought supplies from your house"
+5. July 15, 2024: P2 (Marcus) agreed to pay half of $600 per child summer camp fee but didn't pay by deadline
+6. May 28, 2024: P2 (Marcus) refused $95 dance costume cost, saying he "didn't agree to dance"
+7. March 3, 2024: P2 (Marcus) didn't pay alternating dentist bill, claimed he "never got the bill," went to collections
+8. December 20, 2023: P2 (Marcus) gave children $5 each for $15 gift exchange; C1 (Aiden) felt "embarrassed" his gift was "smallest"
+9. August 8, 2023: P2 (Marcus) canceled children's phone plan without notice, said "They don't need phones, they're kids"
+10. April 15, 2023: P2 (Marcus) claimed both children on taxes despite alternating agreement, P1 (Jennifer) lost $2,400 in credits
 
 #### Documented Child Impact
-Children express embarrassment, financial anxiety, and confusion about family finances. Health needs unmet due to financial non-compliance.
+C1 (Aiden) demonstrates financial anxiety and embarrassment. Children exposed to support payment discussions and financial disputes between parents.
 
 ---
 
-### Pattern 3: Medical/Therapeutic Interference
-**Tier:** Critical  
-**Priority:** High  
-**Evidence Quality:** 20/25  
-**Incidents:** 5
+### Pattern 4: Distorted Narratives & Reality Distortion
+**Tier:** Serious
+**Priority:** High
+**Evidence Quality:** 21/25
+**Incidents:** 8
 
 #### Why This Pattern Was Prioritized
-Despite fewer incidents, this pattern received high priority due to its Critical tier classification and documented impact on children's health and therapeutic progress.
+Serious tier pattern with clear documentation of false information provided to children. Court records contradict statements made to children. Observable child distress when questioning information received.
 
 #### All Supporting Incidents
-1. December 12, 2024: Missed joint therapy session, third missed appointment in 2024
-2. August 20, 2024: Lily's asthma flare, no inhaler available, urgent care required
-3. May 5, 2024: Refuses ADHD medication, school reports behavioral differences between weeks
-4. March 18, 2024: Pulled children from therapy mid-session
-5. September 15, 2023: Antibiotics not administered, infection worsened
+1. January 5, 2025: C1 (Aiden) told "Dad says you left him for another man" - false, divorce filed due to alcohol issues, court records document actual reason
+2. November 22, 2024: P2 (Marcus) told children P1 (Jennifer) "took all his money" - false, 50/50 asset split, children asked why she "stole from Dad"
+3. September 8, 2024: C2 (Lily) told "Dad said you didn't want custody of us at first" - false, P1 (Jennifer) requested primary custody from beginning, court records confirm
+4. July 1, 2024: P2 (Marcus) told children current house "used to be his house" and P1 (Jennifer) "kicked him out" - false, marital home sold, new home purchased independently
+5. May 15, 2024: P2 (Marcus) showed C1 (Aiden) video of 2022 argument recorded without consent during disagreement about drinking
+6. February 28, 2024: P2 (Marcus) told children "Mom's lawyer is lying to the judge," children asked "Why is your lawyer a liar?"
+7. October 10, 2023: P2 (Marcus) told children he sees them less because "Mom won't let me" - false, schedule court-ordered after evaluation, no parenting time denied
+8. June 6, 2023: C2 (Lily) told "Dad says you ruined his life," asked if true while crying
 
 #### Documented Child Impact
-Untreated medical conditions, therapeutic progress disrupted, school-documented behavioral instability when medication not administered.
+Children demonstrate confusion about family history and express distress when questioning information received. Observable emotional impact including crying and anxiety.
 
 ---
 
-### Pattern 4: Schedule & Transition Disruption
-**Tier:** Logistical  
-**Priority:** Moderate  
-**Evidence Quality:** 18/25  
+### Pattern 5: Schedule & Transition Disruption
+**Tier:** Logistical
+**Priority:** Moderate
+**Evidence Quality:** 18/25
 **Incidents:** 5
 
 #### Why This Pattern Was Prioritized
-Met threshold with documented impact on children's expectations and stability. Pattern shows disregard for court-ordered schedule.
+Meets threshold with documented child impact. Pattern of unilateral changes and violations affecting children's stability and routine.
 
 #### All Supporting Incidents
-1. December 22, 2024: Last-minute Christmas Eve request, told children "Mom won't let me see you"
-2. August 12, 2024: No-show for pickup, children waited 2 hours
-3. June 5, 2024: Returned children at 10:30 PM instead of 6 PM on school night
-4. March 1, 2024: Unscheduled appearance at school during other parent's time
-5. October 8, 2023: Took children out of state without approval during other parent's time
+1. December 22, 2024: P2 (Marcus) requested Christmas Eve (P1's scheduled time) two days before, told children "Mom won't let me see you on Christmas Eve" when couldn't accommodate
+2. August 12, 2024: P2 (Marcus) no-show for pickup, no communication, children waited 2 hours, texted at 8 PM "Something came up"
+3. June 5, 2024: P2 (Marcus) returned children 10:30 PM on school night instead of 6 PM, no notice, children hadn't eaten dinner or done homework
+4. March 1, 2024: P2 (Marcus) showed up unannounced at school during P1's parenting time wanting to "have lunch with them"
+5. October 8, 2023: P2 (Marcus) took children out of state to wedding during P1's parenting time without approval or notice
 
 #### Documented Child Impact
-Children experience disappointment and confusion about schedule reliability.
-
----
-
-### Pattern 5: Co-Parent Communication Breakdown
-**Tier:** Logistical  
-**Priority:** Moderate  
-**Evidence Quality:** 16/25  
-**Incidents:** 5
-
-#### Why This Pattern Was Prioritized
-Met threshold with impact on children's care coordination and educational involvement.
-
-#### All Supporting Incidents
-1. January 2, 2025: No response about New Year's Eve activities for 3 days
-2. October 25, 2024: Did not attend school meeting about Aiden's behavior
-3. June 30, 2024: Never returned camp emergency contact form
-4. February 10, 2024: No response to birthday party coordination texts
-5. Multiple instances of unreturned messages about children's needs
-
-#### Documented Child Impact
-Children's needs not met due to coordination failures; separate birthday parties disappointed children.
+Children experienced waiting and disappointment. Late returns on school nights affected sleep and homework completion.
 
 ---
 
@@ -154,11 +157,3 @@ A pattern was identified when documented incidents met the minimum threshold. Th
 - Share professional summaries with your attorney, GAL, or clinician
 - Continue documenting incidents as they occur
 - Rerun analysis as documentation grows
-
-✅ Analysis complete. Three outputs generated:
-
-- `/outputs/attorney-summary.md` — Ready for legal counsel
-- `/outputs/gal-clinician-summary.md` — Ready for GAL/therapist review  
-- `/outputs/internal-clarity.md` — Your complete reference
-
-These documents provide orientation for professional review — they do not constitute legal advice, diagnosis, or strategy.

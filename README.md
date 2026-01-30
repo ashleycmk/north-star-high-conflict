@@ -24,21 +24,26 @@ North Star analyzes custody documentation and maps evidence to 10 research-backe
 
 ### Path 1: Kiro CLI (for judges/developers)
 
-```bash
-# Open terminal and navigate to project
-cd ~/Desktop/north-star-high-conflict
+1. Open the project folder in Kiro
+2. In the Kiro chat, try typing `@analyze` first
 
-# Start Kiro CLI
-kiro-cli
+**If `@analyze` doesn't trigger the analysis** (Kiro sometimes interprets this as a spec request), use this explicit command instead:
 
-# Run the analysis prompt
-@analyze
-
-# When prompted, provide the document path:
-/Users/[your-username]/Desktop/north-star-high-conflict/sample-docs/case-001.md
+```
+Please run the analysis defined in .kiro/prompts/analyze.md on the document at sample-docs/case-001.md
 ```
 
-Outputs are written to `/outputs/`.
+**Sample documents to choose from:**
+
+| Document | Incidents | Primary Patterns |
+|----------|-----------|------------------|
+| `case-001.md` | 12 | Medical Interference, Communication Breakdown |
+| `case-002.md` | 28 | Boundary Violations, Coaching/Secrecy, Triangulation |
+| `case-003.md` | 42 | Financial Impact, Parentification, Distorted Narratives |
+
+3. Kiro will read the document, run the 3-step analysis pipeline, and write outputs to `/outputs/`
+
+**What happens:** Kiro loads the steering documents and custom prompts, extracts facts from the document, maps them to the 10 child-impact patterns, and generates three audience-specific summaries.
 
 ### Path 2: Flask Web UI (for end users)
 
